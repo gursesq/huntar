@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@android:color/white"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="EventName"
+        android:id="@+id/name"
+        android:layout_weight="33"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="56"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="66"
+            android:text="Distance"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="66"
+            android:gravity="center_vertical"
+            android:text="Time Left"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="10"
+        android:id="@+id/dropdown_arrow"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_gravity="fill_vertical"
+        android:textSize="12dp"
+        android:text="Welcome to HunAR. In this app, you can explore the events other users created or become a creator yourself. In order to see a list of events you can attend now, click the explorAR's Hub button at the bottom left. There you will see a list of events, how close they are to you and how much time is left before the event ends. When you tap an event, additional inforation will be displayed and a choice to follow and play will appear.If you follow an event, it will appear at the top and be marked with color in the future (unless you unfollow it or the event ends). If you tap play, a map with the points of interests marked will appear. You will try to walk (or drive or fly?)to these points of interest. When you are near a point, click the camera button on the botom right to open an AR interface. There you will try to find and scan the images preplaced by the creator to unlock the 3D model related with the point of interest. apping this model will add it to your collection." />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Back"
+        android:id="@+id/btnBack"/>
+</LinearLayout>
